@@ -6,8 +6,7 @@
   "steps": [
     "page.witness-details",
     "page.types-of-expenses",
-    "page.travel-expenses",
-    "page.subsistence-expenses"
+    "page.travel-expenses"
   ],
   "url": "/"
 }
