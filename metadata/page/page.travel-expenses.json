@@ -1,0 +1,61 @@
+{
+  "_id": "page.travel-expenses",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.travel-expenses--inset",
+      "_type": "inset",
+      "html": "Please note that taxi or hire car expenses will only be paid for special reasons. You may be asked to provide receipts."
+    },
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "_id": "page.travel-expenses--radios.auto_name__10",
+      "_type": "radios",
+      "items": [
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.travel-expenses--radios.auto_name__10--radio.auto_value__1",
+          "_type": "radio",
+          "label": "Public",
+          "value": "auto_value__1"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.travel-expenses--radios.auto_name__10--radio.auto_value__2",
+          "_type": "radio",
+          "label": "Private",
+          "value": "auto_value__2"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.travel-expenses--radios.auto_name__10--radio.auto_value__3",
+          "_type": "radio",
+          "conditionalComponent": {
+            "$component": true,
+            "$control": true,
+            "$definition": true,
+            "$field": true,
+            "_id": "page.travel-expenses--radios.auto_name__10--radio.auto_value__3--textarea.auto_name__11",
+            "_type": "textarea",
+            "hint": "State below the type of other transport used and your reasons for using it.",
+            "name": "auto_name__11"
+          },
+          "label": "Other",
+          "value": "auto_value__3"
+        }
+      ],
+      "legend": "What type of transport did you use?",
+      "name": "auto_name__10"
+    }
+  ],
+  "heading": "Travel expenses",
+  "url": "travel-expenses"
+}

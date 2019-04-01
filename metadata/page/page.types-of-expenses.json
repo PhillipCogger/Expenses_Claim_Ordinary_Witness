@@ -1,0 +1,33 @@
+{
+  "_id": "page.types-of-expenses",
+  "_type": "page.form",
+  "body": "You can claim for travel, food and drink (subsistence), and loss of earnings because of absence.\r\n\r\nSelect one or more of the items you want to claim expenses for.",
+  "components": [
+    {
+      "_id": "page.types-of-expenses--checkboxes",
+      "_type": "checkboxes",
+      "items": [
+        {
+          "_id": "page.types-of-expenses--checkboxes--checkbox.auto_name__7",
+          "_type": "checkbox",
+          "label": "Travel",
+          "name": "auto_name__7"
+        },
+        {
+          "_id": "page.types-of-expenses--checkboxes--checkbox.auto_name__8",
+          "_type": "checkbox",
+          "label": "Meals and refreshments",
+          "name": "auto_name__8"
+        },
+        {
+          "_id": "page.types-of-expenses--checkboxes--checkbox.auto_name__9",
+          "_type": "checkbox",
+          "label": "Loss of earnings because of absence",
+          "name": "auto_name__9"
+        }
+      ]
+    }
+  ],
+  "heading": "What types of expense are you claiming for?",
+  "url": "types-of-expenses"
+}

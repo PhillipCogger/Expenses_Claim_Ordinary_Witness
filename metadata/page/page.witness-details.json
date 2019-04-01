@@ -1,0 +1,69 @@
+{
+  "_id": "page.witness-details",
+  "_type": "page.form",
+  "components": [
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.witness-details--text.auto_name__1",
+      "_type": "text",
+      "label": "Full name",
+      "name": "auto_name__1"
+    },
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.witness-details--text.auto_name__2",
+      "_type": "text",
+      "hint": "Building number or name",
+      "label": "Address",
+      "name": "auto_name__2"
+    },
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.witness-details--text.auto_name__3",
+      "_type": "text",
+      "label": "Street",
+      "name": "auto_name__3"
+    },
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.witness-details--text.auto_name__4",
+      "_type": "text",
+      "label": "Town or city",
+      "name": "auto_name__4"
+    },
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.witness-details--text.auto_name__5",
+      "_type": "text",
+      "label": "County",
+      "name": "auto_name__5"
+    },
+    {
+      "$component": true,
+      "$control": true,
+      "$definition": true,
+      "$field": true,
+      "_id": "page.witness-details--text.auto_name__6",
+      "_type": "text",
+      "label": "Postcode",
+      "name": "auto_name__6"
+    }
+  ],
+  "heading": "Witness details",
+  "url": "witness-details"
+}
