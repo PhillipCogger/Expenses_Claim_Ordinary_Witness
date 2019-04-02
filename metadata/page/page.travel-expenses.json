@@ -3,11 +3,6 @@
   "_type": "page.form",
   "components": [
     {
-      "_id": "page.travel-expenses--inset",
-      "_type": "inset",
-      "html": "Please note that taxi or hire car expenses will only be paid for special reasons. You may be asked to provide receipts."
-    },
-    {
       "$component": true,
       "$control": true,
       "$definition": true,
@@ -54,6 +49,11 @@
       ],
       "legend": "What type of transport did you use?",
       "name": "auto_name__10"
+    },
+    {
+      "_id": "page.travel-expenses--inset",
+      "_type": "inset",
+      "html": "Please note that taxi or hire car expenses will only be paid for special reasons. You may be asked to provide receipts."
     }
   ],
   "heading": "Travel expenses",

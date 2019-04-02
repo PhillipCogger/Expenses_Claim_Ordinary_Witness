@@ -1,0 +1,19 @@
+{
+  "_id": "page.return-fair-details",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.return-fair-details--number.auto_name__12",
+      "_type": "number",
+      "hint": "For example, enter £30.40",
+      "name": "auto_name__12"
+    }
+  ],
+  "heading": "How much was your return fare per day?",
+  "show": {
+    "identifier": "auto_name__10",
+    "operator": "is",
+    "value": "auto_value__1"
+  },
+  "url": "return-fair-details"
+}

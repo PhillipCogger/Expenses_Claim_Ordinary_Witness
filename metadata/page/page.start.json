@@ -6,7 +6,9 @@
   "steps": [
     "page.witness-details",
     "page.types-of-expenses",
-    "page.travel-expenses"
+    "page.travel-expenses",
+    "page.return-fair-details",
+    "page.vehicle-type-used"
   ],
   "url": "/"
 }
