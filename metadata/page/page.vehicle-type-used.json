@@ -23,5 +23,10 @@
     }
   ],
   "heading": "Vehicle used",
+  "show": {
+    "identifier": "auto_name__10",
+    "operator": "is",
+    "value": "auto_value__2"
+  },
   "url": "vehicle-type-used"
 }

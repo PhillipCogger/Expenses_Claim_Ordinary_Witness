@@ -1,0 +1,19 @@
+{
+  "_id": "page.return-journey-cost",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.return-journey-cost--number.auto_name__15",
+      "_type": "number",
+      "hint": "For example, enter £30.40",
+      "label": "How much was your return journey per day?",
+      "name": "auto_name__15"
+    }
+  ],
+  "show": {
+    "identifier": "auto_name__10",
+    "operator": "is",
+    "value": "auto_value__3"
+  },
+  "url": "return-journey-cost"
+}
